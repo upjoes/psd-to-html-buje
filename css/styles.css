@@ -51,6 +51,12 @@ ul.topmenu li.icon {
     display: none;
 }
 
+.phone img{
+    float: right;
+    width: 25%;
+    margin-top: 80px;
+}
+
 .blurb{
     width: 31%;
     margin-left: 170px;
