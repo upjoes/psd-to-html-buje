@@ -1,7 +1,15 @@
 /*-- HEADER REIGON --*/
 .logo {
 	font-family: arial;
+    width: 10%;
+    margin-left: 170px;
 }
+
+.logo a {
+    text-decoration: none;
+    color: #FE6768;
+}
+
 
 .header{
     background-color: #39404A;
@@ -45,10 +53,13 @@ ul.topmenu li.icon {
 
 .blurb{
     width: 31%;
+    margin-left: 170px;
 }
 
 .email{
     margin-bottom: 65px;
+    width: 40%;
+    margin-left: 170px;
 }
 
 .container {
@@ -59,9 +70,10 @@ ul.topmenu li.icon {
 }
 
 h2 {
-  text-align:center;
-  padding:18px 0 18px 0;
-  font-size: 1.4em;
+/*text-align:center;*/
+/*padding:18px 0 18px 0;*/
+  font-size: 3.4em;
+  color: #FE6768;
 }
 
 input {
@@ -146,6 +158,7 @@ label.error {
 
 .social-links{
     width: 35%;
+    margin-left: 150px;
 }
 
 .social-links img{
