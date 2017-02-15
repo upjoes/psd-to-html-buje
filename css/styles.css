@@ -10,6 +10,16 @@
 }
 
 @font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/Open_Sans_Light/OpenSans-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Open_Sans_Light/OpenSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Open_Sans_Light/OpenSans-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Open_Sans_Light/OpenSans-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Open_Sans_Light/OpenSans-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Open_Sans_Light/OpenSans-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
   font-family: 'GentiumBook-Basic';
   src: url('../fonts/Gentium_Book_Basic/GenBkBasR.eot'); /* IE9 Compat Modes */
   src: url('../fonts/Gentium_Book_Basic/GenBkBasR.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -127,6 +137,7 @@ input:first-of-type{
   /*margin-top:35px;*/
   float: left;
   margin-top: 18px;
+  font-family: OpenSans-ExtraBold;
 }
 
 input, textarea {
@@ -201,4 +212,23 @@ label.error {
 
 .social-links img{
     margin-left: 20px;
+}
+
+/*-- SERVICE SECTION --*/
+.block-1, .block-2, .block-3 p {
+    color: #9AA0A8;
+}
+
+.block-1, .block-2, .block-3{
+    width: 18%;
+    text-align: center;
+    float: left;
+}
+
+.service-container h3{
+    font-size: 2.2em;
+}
+
+.splitter{
+    width: 100%
 }
