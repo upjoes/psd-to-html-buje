@@ -228,6 +228,7 @@ label.error {
 
 .service-container {
     text-align: center;
+    height: 480px;
 }
 
 .service-container h3{
@@ -242,3 +243,72 @@ label.error {
     float: right;
     margin-right: 180px;
 }
+
+/*-- TEAM SECTION --*/
+.team-container{
+    background-image: -webkit-gradient(linear, 0 0, 841 154.00001335144043, color-stop(0.243, #333b45), color-stop(0.302, #353d47), color-stop(0.302, #363d47), color-stop(0.309, #363d47), color-stop(0.309, #363e48), color-stop(0.921, #3a424b), color-stop(0.921, #3a414b), color-stop(0.934, #3a414b), color-stop(0.934, #39414b), color-stop(0.974, #39414a), color-stop(0.974, #39404a), color-stop(0.989, #39404a), color-stop(0.989, #38404a));
+    background-image: -webkit-linear-gradient(349.62322577667396deg, #333b45 24.3%, #353d47 30.2%, #363d47 30.2%, #363d47 30.9%, #363e48 30.9%, #3a424b 92.1%, #3a414b 92.1%, #3a414b 93.4%, #39414b 93.4%, #39414a 97.4%, #39404a 97.4%, #39404a 98.9%, #38404a 98.9%);
+    background-image: -moz-linear-gradient(349.62322577667396deg, #333b45 24.3%, #353d47 30.2%, #363d47 30.2%, #363d47 30.9%, #363e48 30.9%, #3a424b 92.1%, #3a414b 92.1%, #3a414b 93.4%, #39414b 93.4%, #39414a 97.4%, #39404a 97.4%, #39404a 98.9%, #38404a 98.9%);
+    background-image: -o-linear-gradient(349.62322577667396deg, #333b45 24.3%, #353d47 30.2%, #363d47 30.2%, #363d47 30.9%, #363e48 30.9%, #3a424b 92.1%, #3a414b 92.1%, #3a414b 93.4%, #39414b 93.4%, #39414a 97.4%, #39404a 97.4%, #39404a 98.9%, #38404a 98.9%);
+    background-image: linear-gradient(100.37677422332604deg, #333b45 24.3%, #353d47 30.2%, #363d47 30.2%, #363d47 30.9%, #363e48 30.9%, #3a424b 92.1%, #3a414b 92.1%, #3a414b 93.4%, #39414b 93.4%, #39414a 97.4%, #39404a 97.4%, #39404a 98.9%, #38404a 98.9%);
+    float: left;
+}
+
+.bio-wrapper{
+    width: 50%;
+    float: left;
+}
+
+.bio-wrapper .social-links{
+    margin-left: 0px;
+    float: left;
+}
+
+.bio h3{
+    color: #FFFFFF;
+}
+
+.mike{
+    width: 40%;
+    float: left;
+}
+
+.worker{
+    width: 20%;
+    float: left;
+}
+
+
+/*.bio p{
+    width: 30%;
+    float: left;
+    margin-top: 0px;
+}
+
+.mike{
+    width: 20%;
+    float: left;
+}
+
+.mike img{
+    padding-top: 25px;
+}
+
+.worker{
+    width: 20%;
+    float: left;
+}
+
+.worker img{
+    padding-top: 25px;
+}
+
+.skill-bar h5{
+    width: 5%;
+    float: left;
+}
+
+.clone{
+    width: 20%;
+    float: right;
+}*/
