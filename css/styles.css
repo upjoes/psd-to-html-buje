@@ -223,12 +223,22 @@ label.error {
     width: 18%;
     text-align: center;
     float: left;
+    margin-left: 172px;
+}
+
+.service-container {
+    text-align: center;
 }
 
 .service-container h3{
     font-size: 2.2em;
 }
 
-.splitter{
-    width: 100%
+.splitter img{
+    width: 60%
+}
+
+.globe{
+    float: right;
+    margin-right: 180px;
 }
