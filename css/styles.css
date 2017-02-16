@@ -271,12 +271,47 @@ label.error {
 .mike{
     width: 40%;
     float: left;
+    padding-top: 25px;
 }
 
 .worker{
     width: 20%;
     float: left;
+    padding-top: 25px;
 }
+
+.skill-bar{
+    width: 60%;
+    float: left;
+}
+
+h5.right{
+    width: 80%;
+}
+
+.skill-bar h5{
+    /*width: 10%;*/
+    float: left;
+}
+
+/*-- APP SECTION --*/
+.app-container .block-1{
+    width: 25%;
+    text-align: left;
+    margin-top: 90px;
+}
+
+.app-container button{
+    margin-left: 0;
+    width: 40%;
+    font-size: 9px;
+}
+
+.phone-strip img{
+    width: 100%;
+    margin-top: -230px;
+}
+
 
 
 /*.bio p{
