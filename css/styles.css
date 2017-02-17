@@ -241,7 +241,7 @@ label.error {
 
 .globe{
     float: right;
-    margin-right: 180px;
+    margin-right: 179px;
 }
 
 /*-- TEAM SECTION --*/
@@ -298,7 +298,9 @@ h5.right{
 .app-container .block-1{
     width: 25%;
     text-align: left;
-    margin-top: 90px;
+    /*margin-top: 90px;*/
+    position: absolute;
+    top: 1420px;
 }
 
 .app-container button{
@@ -309,9 +311,53 @@ h5.right{
 
 .phone-strip img{
     width: 100%;
-    margin-top: -230px;
+    margin-top: 85px;
 }
 
+.container-portfolio{
+    text-align: center;
+}
+
+.clients{ 
+    width:910px;
+    height:55px;
+    text-decoration:none;
+    display:block;
+    background-image:url(../images/sprites.png);
+    background-position:70px 0;
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+.clients p{
+    display: none;
+}
+
+.blog-container{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.blog-container h1{    
+    font-size: 1.3em;
+}
+
+.blog-1, .blog-2, .blog-3{
+    width: 25%;
+    text-align: left;
+    float: left;
+}
+
+.blog-image{
+    float: left;
+    width: 35%;
+}
+
+.blog-1, .blog-2, .blog-3 p{
+    color: #9AA0A8;
+    font-family: GentiumBook-Basic;
+}
 
 
 /*.bio p{
@@ -364,7 +410,7 @@ h5.right{
     overflow: hidden;
     width: 50%;
     float: right;
-    /*margin-top: -55px;*/
+    margin-bottom: 45px;
     margin-right: 225px; 
 }
 
@@ -383,20 +429,24 @@ h5.right{
     transition: 0.3s;
     font-size: 15px;
     font-family: OpenSans-ExtraBold;
-    border: 1px solid;
+    border: 1px solid #FE6768;
     border-radius: 6px;
     margin-right: 25px;
 }
 
 .portfolio ul.topmenu li a:hover {
-    background-color: #555;
+    background-color: #FE6768;
 }
 
 .portfolio ul.topmenu li.icon {
     display: none;
 }
 
-.portfolio img{
+.image-wrapper{
+    margin-left: 95px;
+}
+
+.image-wrapper img{
     float: left;
     clear: right;
 }
