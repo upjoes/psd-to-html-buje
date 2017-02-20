@@ -174,7 +174,7 @@ button {
   margin-top:15px;
   margin-bottom:25px;
   background-color:#FF6868;
-  padding: 12px 45px;
+  padding: 12px 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
@@ -183,7 +183,7 @@ button {
   transition: .5s;
   display: inline-block;
   cursor: pointer;
-  width:25%;
+  width:30%;
   color:#fff;
 }
 button:hover, .button:hover {
@@ -520,7 +520,7 @@ h1.ten{
 
 .price-container{
     text-align: center;
-    height: 370px;
+    height: 425px;
 }
 
 h3.title{
@@ -535,18 +535,19 @@ h3.title{
 .price-list{
     border: 1px solid #9AA0A8;
     width: 93.71%;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 9px 9px;
 }
 
 ul.list{
     list-style: none;
+    margin-bottom: 35px;
 }
 
 ul.list li{
     color: #9AA0A8;
     text-align: left;
     font-family: 'OpenSans-Light';
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6em;
 }
 
@@ -556,6 +557,10 @@ ul.list li:before{
     color: #2A535E;
     margin-left: -15px;
     padding-right: 10px;
+}
+
+.button-text{
+    margin-bottom: 23px;
 }
 
 /*-- CASE STUDY SECTION --*/
@@ -581,3 +586,4 @@ ul.list li:before{
 .social-link{
     text-align: center;
 }
+
