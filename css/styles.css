@@ -556,7 +556,7 @@ ul.list li{
 }
 
 ul.list li:before{
-    content: url('../images/price-arrow1.png');
+    content: url('../images/price-arrow.png');
     font-size: 14px;
     color: #2A535E;
     margin-left: -15px;
@@ -598,4 +598,18 @@ ul.list li:before{
 
 .contact-container{
     text-align: center;
+}
+
+/*-- FOOTER SECTION --*/
+footer{
+    background-image: -webkit-gradient(linear, 0 0, 841 154.00001335144043, color-stop(0.243, #333b45), color-stop(0.302, #353d47), color-stop(0.302, #363d47), color-stop(0.309, #363d47), color-stop(0.309, #363e48), color-stop(0.921, #3a424b), color-stop(0.921, #3a414b), color-stop(0.934, #3a414b), color-stop(0.934, #39414b), color-stop(0.974, #39414a), color-stop(0.974, #39404a), color-stop(0.989, #39404a), color-stop(0.989, #38404a));
+    background-image: -webkit-linear-gradient(349.62322577667396deg, #333b45 24.3%, #353d47 30.2%, #363d47 30.2%, #363d47 30.9%, #363e48 30.9%, #3a424b 92.1%, #3a414b 92.1%, #3a414b 93.4%, #39414b 93.4%, #39414a 97.4%, #39404a 97.4%, #39404a 98.9%, #38404a 98.9%);
+    background-image: -moz-linear-gradient(349.62322577667396deg, #333b45 24.3%, #353d47 30.2%, #363d47 30.2%, #363d47 30.9%, #363e48 30.9%, #3a424b 92.1%, #3a414b 92.1%, #3a414b 93.4%, #39414b 93.4%, #39414a 97.4%, #39404a 97.4%, #39404a 98.9%, #38404a 98.9%);
+    background-image: -o-linear-gradient(349.62322577667396deg, #333b45 24.3%, #353d47 30.2%, #363d47 30.2%, #363d47 30.9%, #363e48 30.9%, #3a424b 92.1%, #3a414b 92.1%, #3a414b 93.4%, #39414b 93.4%, #39414a 97.4%, #39404a 97.4%, #39404a 98.9%, #38404a 98.9%);
+    background-image: linear-gradient(100.37677422332604deg, #333b45 24.3%, #353d47 30.2%, #363d47 30.2%, #363d47 30.9%, #363e48 30.9%, #3a424b 92.1%, #3a414b 92.1%, #3a414b 93.4%, #39414b 93.4%, #39414a 97.4%, #39404a 97.4%, #39404a 98.9%, #38404a 98.9%)
+}
+
+footer .social-links{
+    float: right;
+    width: 30%;
 }
