@@ -47,7 +47,7 @@
      padding-top: 40px;
 }
 
-.header{
+.header, .subscribe-container{
     /*background-color: #3C444E;*/
     background-image: -webkit-gradient(linear, 0 0, 841 154.00001335144043, color-stop(0.243, #333b45), color-stop(0.302, #353d47), color-stop(0.302, #363d47), color-stop(0.309, #363d47), color-stop(0.309, #363e48), color-stop(0.921, #3a424b), color-stop(0.921, #3a414b), color-stop(0.934, #3a414b), color-stop(0.934, #39414b), color-stop(0.974, #39414a), color-stop(0.974, #39404a), color-stop(0.989, #39404a), color-stop(0.989, #38404a));
     background-image: -webkit-linear-gradient(349.62322577667396deg, #333b45 24.3%, #353d47 30.2%, #363d47 30.2%, #363d47 30.9%, #363e48 30.9%, #3a424b 92.1%, #3a414b 92.1%, #3a414b 93.4%, #39414b 93.4%, #39414a 97.4%, #39404a 97.4%, #39404a 98.9%, #38404a 98.9%);
@@ -343,16 +343,16 @@ h5.right{
     font-size: 1.3em;
 }
 
-.blog-1, .blog-2, .blog-3{
+/*.blog-1, .blog-2, .blog-3{
     width: 25%;
     text-align: left;
     float: left;
-}
+}*/
 
-.blog-image{
+/*.blog-image{
     float: left;
     width: 35%;
-}
+}*/
 
 .blog-1, .blog-2, .blog-3 p{
     color: #9AA0A8;
@@ -446,7 +446,31 @@ h5.right{
     margin-left: 95px;
 }
 
-.image-wrapper img{
+/*.image-wrapper img{
     float: left;
     clear: right;
+}
+*/
+
+/*-- SUBSCRIBE SECTION --*/
+.subscribe-container{
+    overflow: hidden;
+}
+
+.subscribe{
+    width: 36%;
+    margin-left: 170px;
+}
+
+.subscribe h2{
+    font-size: 30px;
+}
+
+.subscribe-container .email{
+    margin-left: 170px;
+}
+
+.newsletter{
+    float: right;
+    width: 30%;
 }
