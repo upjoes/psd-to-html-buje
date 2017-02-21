@@ -318,7 +318,7 @@ h5.right{
 }
 
 .clients{ 
-    width:1314px;
+    width:1313px;
     height:75px;
     text-decoration:none;
     display:block;
@@ -327,7 +327,7 @@ h5.right{
     background-repeat: no-repeat;
     clear: both;
     border: 1px solid black;
-    margin-left: 98px;
+    margin-left: 102px;
     margin-top: -6px;
     background-color: #3D454F;
 }
@@ -538,7 +538,7 @@ h3.title{
 
 .price-list{
     border: 1px solid #9AA0A8;
-    width: 93.71%;
+    width: 93.30%;
     border-radius: 0 0 9px 9px;
 }
 
@@ -596,6 +596,11 @@ ul.list li:before{
     font-size: 2.2em;
 }
 
+.contact-container .email{
+    width: 87%;
+    margin-left: 10px;
+}
+
 .contact-container{
     text-align: center;
 }
@@ -607,6 +612,29 @@ footer{
     background-image: -moz-linear-gradient(349.62322577667396deg, #333b45 24.3%, #353d47 30.2%, #363d47 30.2%, #363d47 30.9%, #363e48 30.9%, #3a424b 92.1%, #3a414b 92.1%, #3a414b 93.4%, #39414b 93.4%, #39414a 97.4%, #39404a 97.4%, #39404a 98.9%, #38404a 98.9%);
     background-image: -o-linear-gradient(349.62322577667396deg, #333b45 24.3%, #353d47 30.2%, #363d47 30.2%, #363d47 30.9%, #363e48 30.9%, #3a424b 92.1%, #3a414b 92.1%, #3a414b 93.4%, #39414b 93.4%, #39414a 97.4%, #39404a 97.4%, #39404a 98.9%, #38404a 98.9%);
     background-image: linear-gradient(100.37677422332604deg, #333b45 24.3%, #353d47 30.2%, #363d47 30.2%, #363d47 30.9%, #363e48 30.9%, #3a424b 92.1%, #3a414b 92.1%, #3a414b 93.4%, #39414b 93.4%, #39414a 97.4%, #39404a 97.4%, #39404a 98.9%, #38404a 98.9%)
+}
+
+footer .logo a{
+    color: #B3B3B3;
+}
+
+footer .logo h1{
+    padding-top: 70px;
+}
+
+footer p{
+    color: #FE6768;
+    width: 20%;
+    float: left;
+    margin-left: 170px;
+}
+
+footer span{
+    color: #B3B3B3;
+}
+
+.footer-container{
+    height: 250px;
 }
 
 footer .social-links{
